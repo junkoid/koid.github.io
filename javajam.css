@@ -1,0 +1,179 @@
+main {
+    padding: 0em 0em 2em 0em;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#heroroad {
+    background-image: url(img/heroroad.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heromugs {
+    background-image: url(img/heromugs.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url(img/heroguitar.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#herojobs {
+    background-image: url(img/heroguitar.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+main h2, main dl, main div, main p, main h3 {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+
+a:link {
+    color: #FEF6c2;
+}
+
+a:visited {
+    color: #D2B48C;
+}
+
+a:hover {
+    color: #CC9933;
+}
+
+header {
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url(img/javajamlogo.jpg);
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url(img/background.gif);
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 1.5em;
+    float: left;
+    width: 200px
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+}
+
+#wrapper {
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px grey;
+    background-color: #231814;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #231814;
+    float: none;
+
+}
+
+.details {
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: auto;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table {
+    width: 90%;
+    border-spacing: 0px;
+    background-color: #FFFFCC;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(1) {
+    background-color: #D2B48E;
+}
+
+tr:nth-of-type(3) {
+    background-color: #D2B48E;
+}
+
+form {
+    padding: 2em;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
